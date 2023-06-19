@@ -1,0 +1,83 @@
+/* style.css */
+
+/* Common styles for input and select elements */
+input, select {
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Styles for the upload container */
+#upload {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px solid black;
+}
+#bodySection{
+  max-width: 45%;
+}
+/* Styles for the login section */
+#loginSection {
+  padding: 5px;
+}
+
+/* Body styles */
+body {
+  background-color: #b8e994;
+}
+
+/* Styles for the login button */
+#loginbtn {
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+/* Styles for the registration link */
+#reglink {
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Styles for anchor tags */
+a {
+  text-decoration: none;
+}
+
+/* Media queries for responsiveness */
+@media screen and (min-width: 768px) {
+  /* Styles for screens larger than 768px */
+  #from {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  #upload {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* Styles for screens up to 767px */
+  #from {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #upload {
+    width: 100%;
+  }
+
+  #loginbtn {
+    font-size: 14px;
+ }
+}
